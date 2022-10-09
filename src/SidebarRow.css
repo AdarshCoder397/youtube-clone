@@ -1,0 +1,38 @@
+.sidebarRow {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.sidebarRow_icon {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: gray;
+    font-size: large !important;
+}
+.sidebarRow_title {
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.sidebarRow:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.sidebarRow:hover > .sidebarRow_icon {
+    color: black;
+}
+.sidebarRow:hover > .sidebarRow_title {
+    font-weight: bold;
+}
+.sidebarRow.selected {
+    background-color: lightgray;
+}
+.sidebarRow.selected > .sidebarRow_icon {
+    color: black;
+}
+.sidebarRow.selected > .sidebarRow_title {
+    font-weight: bold;
+}
