@@ -11,7 +11,7 @@
 .header_logo{
     height: 25px;
     object-fit: contain;
-    margin-left: 10px;
+    margin-left: 17px;
 }
 .header_input {
     display: flex;
@@ -34,4 +34,11 @@
     flex: 1;
     height: 20px;
     border: none;
+}
+.header_left {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    color: black !important;
 }
